@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Failure to Launch: Australia, the United States, and the Threat of Innefficient Innovation"
+excerpt: "An interactive data visualization piece on the various factors of innovation in the US and Australia. <br/><img src='/images/graph-final.gif'>"
 collection: portfolio
 ---
 
