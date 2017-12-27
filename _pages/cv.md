@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://zmeers.github.io/zoemeers/files/paper1.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+<iframe src="https://zmeers.github.io/zoemeers/files/CV-ZoeMeers-1223.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
 
 Education
 ======
