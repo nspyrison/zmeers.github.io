@@ -14,7 +14,7 @@ author_profile: true
 
 <img src="/images/graph-final.gif" width="425"/> <img src="/images/maps-final.gif" width="425"/> 
 
-## Mapping Papua New Guinea Election Results (interactive)
+## Mapping PNG 2017 Election Results (interactive)
 
 #### [View map here](https://zmeers.github.io/png-map/png_map.html)
 #### [View GitHub repo here](https://github.com/zmeers/png-map)
