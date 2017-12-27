@@ -80,9 +80,9 @@ analytics:
 author:
   name             : "Zoe Meers"
   avatar           : "profile.png"
-  bio              : "A student of politics, statistics, and data science. Research Assistant @USSC @Sydney_Uni. UWC Costa Rica & Smith alumna. Calls Australia home."
+  bio              : "A student of politics, statistics, and data science. Research Assistant at the USSC at USyd. UWC Costa Rica & Smith alumna. Calls Australia home."
   location         : "Sydney, Australia"
-  employer         : "https://ussc.edu.au"
+  employer         : "United States Studies Center"
   email            : "zoe.meers@sydney.edu.au"
   uri              : 
   bitbucket        :
@@ -97,7 +97,7 @@ author:
   instagram        :
   lastfm           :
   linkedin         : "https://www.linkedin.com/in/zoe-meers-30360890/"
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
