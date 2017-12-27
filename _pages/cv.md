@@ -49,7 +49,7 @@ Work experience
   * Duties included: Interviewing asylum seekers, visiting makeshift refugee camps in Paris.  
   * Supervisor: Professor Greg White
   
- * Summer 2016: Research Assistant
+* Summer 2016: Research Assistant
   * Paris Institute for Advanced Studies 
   * Duties included: Created a data set analyzing mentions of asylum seekers and refugees in French media.
   * Supervisor: Professor Jan-Willem Duyvendak
@@ -57,16 +57,16 @@ Work experience
 
 Grants, Honors, and Awards
 ======
- * Australian Society for Quantitative Political Science Early Career Researchers and PhD Travel Grant
+* Australian Society for Quantitative Political Science Early Career Researchers and PhD Travel Grant
   * $500
 
- * Smith College Blumberg Travelling Fellowship
+* Smith College Blumberg Travelling Fellowship
   * $5000 
   
- * Smith College French Department award: Josephine Ott Prize
+* Smith College French Department award: Josephine Ott Prize
   * $500
   
- * Shelby Davis Scholar
+* Shelby Davis Scholar
   * $40,000 ($10,000 p.a. while at Smith College)
   
 Skills
