@@ -11,7 +11,7 @@ title                    : "Zoe Meers"
 title_separator          : "-"
 name                     : &name "Zoe Meers"
 description              : &description "Research Assistant in political methodology and data visualization at the US Studies Center at Sydney University"
-url                      : https://zmeers.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://zmeers.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "zoemeers"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -82,7 +82,7 @@ author:
   avatar           : "profile.png"
   bio              : "A student of politics, statistics, and data science. Research Assistant at the USSC at USyd. UWC Costa Rica & Smith alumna. Calls Australia home."
   location         : "Sydney, Australia"
-  employer         : "United States Studies Center"
+  employer         : 
   email            : "zoe.meers@sydney.edu.au"
   uri              : 
   bitbucket        :
