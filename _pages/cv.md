@@ -11,49 +11,68 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.A. in Government with a minor in Statistics and Data Science, Smith College, 2017
+
+Research Interests
+======
+American politics, Australian politics, political behavior, public opinion research, political methodology
+
+Working Papers
+======
+
+Australian Anti-Americanism before and after Trump (with Luke Mansillo)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* January 2018 - March 2018 : Google News Lab Fellow
+  * Google News Lab
+  * Duties include: Data visualization work with the interactive digital team at the Australian Broadcasting Commission and the Google News Lab.
+  * Supervisor: Simon Elvery
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* July 2017 - present : Research Assistant
+  * US Studies Center at Sydney University
+  * Duties include: Data visualization and modelling, managing the Center's GitHub page, as well as other academic and policy-oriented tasks for the Center. 
+  * Supervisor: Professor Simon Jackman
+
+* Spring 2017: Research Assistant
+  * Smith College
+  * Duties included: Data cleaning, data visualization
+  * Supervisor: Professor Alexander Barron
+  
+* Fall 2016: Co-Investigator
+  * Pre-Election Survey of the Smith College Student Body
+  * Duties included: Survey design, data cleaning and preliminary analysis, ran crosstabs and frequentist regression models. 
+  * Supervisor: Professor Howard Gold
+  
+* Summer 2016: Blumberg Travelling Fellowship
+  * Awarded a fellowship to study the European refugee crisis in Paris, France. Paper was presented at Smith College in October 2016. 
+  * Duties included: Interviewing asylum seekers, visiting makeshift refugee camps in Paris.  
+  * Supervisor: Professor Greg White
+  
+ * Summer 2016: Research Assistant
+  * Paris Institute for Advanced Studies 
+  * Duties included: Created a data set analyzing mentions of asylum seekers and refugees in French media.
+  * Supervisor: Professor Jan-Willem Duyvendak
+  
+
+Grants, Honors, and Awards
+======
+ * Australian Society for Quantitative Political Science Early Career Researchers and PhD Travel Grant
+  * $500
+
+ * Smith College Blumberg Travelling Fellowship
+  * $5000 
+  
+ * Smith College French Department award: Josephine Ott Prize
+  * $500
+  
+ * Shelby Davis Scholar
+  * $40,000 ($10,000 p.a. while at Smith College)
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* R
+* LaTeX
+* Python
+* D3, Tableau
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
