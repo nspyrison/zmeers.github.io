@@ -16,6 +16,6 @@ author_profile: true
 #### [View map here](https://zmeers.github.io/png-map/png_map.html)
 #### [View GitHub repo here](https://github.com/zmeers/png-map)
 ## Mapping Macleish Field Station (interactive)
-<img src="https://zmeers.github.io/zoemeers/images/macleish.png" width="425"/>
+<img src="https://zmeers.github.io/images/macleish.png" width="425"/>
 #### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
 #### [View GitHub repo here](https://github.com/zmeers/SDS192-Mini-Project-4)
