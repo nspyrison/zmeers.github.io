@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* B.A. in Government with a minor in Statistics and Data Science, Smith College, 2017
+* B.A. in Government from Smith College, May 2017
+  * Minor in Statistics and Data Science
 
 Research Interests
 ======
@@ -22,7 +23,13 @@ Working Papers
 
 Australian Anti-Americanism before and after Trump (with Luke Mansillo)
 
-Work experience
+Conference Presentations
+======
+* Australian Society of Quantitative Political Science, Dec. 11-14, 2017
+  * Political psychology panel
+  * Paper presented: Australian Anti-Americanism before and after Trump (with Luke Mansillo)
+
+Research experience
 ======
 * January 2018 - March 2018 : Google News Lab Fellow
   * Google News Lab
