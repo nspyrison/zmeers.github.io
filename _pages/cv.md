@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+<iframe src="http://docs.google.com/gview?url=https://zmeers.github.io/zoemeers/files/paper1.pdf&embedded=true" style="width:718px; height:700px;" frameborder="0"></iframe>
+
 Education
 ======
 * B.A. in Government from Smith College, May 2017
