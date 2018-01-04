@@ -1,13 +1,9 @@
 # main links links
 main:
  
-  - title: "About"
-    url: /about/
-    
   - title: "Blog Posts"
     url: /year-archive/
     
-
   - title: "Data Visualization Portfolio"
     url: /portfolio/
         
