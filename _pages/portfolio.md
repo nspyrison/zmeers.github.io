@@ -14,11 +14,12 @@ author_profile: true
 ## Mapping PNG 2017 Election Results (interactive)
 <img src="https://zmeers.github.io/images/png_map.png" width="425"/>
 #### [View map here](https://zmeers.github.io/png-map/png_map_widget.html)
+#### [I wrote about the process of creating this map in my blog](https://zmeers.github.io/posts/2018/01/blog-post-2/)
 #### [View GitHub repo here](https://github.com/zmeers/png-map)
-## How did Bernie Sanders supporters vote in the general election? (interactive)
+## How did supporters of Bernie Sanders vote in the general election? (interactive)
 <img src="https://zmeers.github.io/images/berniesanders.gif" width="850"/> 
-#### [View interactive game here] (https://estephenson.github.io/final-project/index.html)
-#### [View GitHub repo here] (https://github.com/estephenson/final-project)
+#### [View interactive game here](https://estephenson.github.io/final-project/index.html)
+#### [View GitHub repo here](https://github.com/estephenson/final-project)
 ## Mapping Macleish Field Station (interactive)
 <img src="https://zmeers.github.io/images/macleish.png" width="425"/>
 #### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
