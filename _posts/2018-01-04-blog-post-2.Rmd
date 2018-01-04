@@ -1,0 +1,152 @@
+---
+title: "Mapping PNG 2017 Election Results"
+author: "Zoe Meers"
+date: '2018-01-04'
+tags:
+- PNG
+- Asia-Pacific
+- Elections
+- R
+- Leaflet
+permalink: /posts/2018/01/blog-post-2/
+---
+
+Last October [I co-wrote an article](https://www.washingtonpost.com/news/monkey-cage/wp/2017/10/25/we-finally-know-the-results-of-papua-new-guineas-elections/?utm_term=.a1cc038a4649) on the Papua New Guinea 2017 election results for the Monkey Cage, a political science blog at the _Washington_ _Post_. Although we published the article without any graphics, I did make a map of the electoral results. With the benefit of hindsight, I can clearly see that the original map was a first draft. However I will recreate the steps below for the benefit of others who may want to do the same thing. 
+
+_NB: This tutorial may be especially useful for those looking to create maps of countries where shapefiles are difficult to find._
+
+Maps can be created in a variety of software packages. A lot of my map-making experiences have been simple trial and error, i.e. I usually hack my way around until I have what I want. No doubt there are easier ways to create maps - indeed, one of my regrets from college is that I did not take a GIS class or take advantage of the GIS Lab while I had the chance! I do have experience creating maps in D3 but for this blog post I will show you how to create a map of Papua New Guinea in R. For those who want to follow along, this post will assume you have a cursory knowledge of R and the tidyverse. If not, I would strongly recommend taking DataCamp's R course beforehand. 
+
+First, load the necessary packages. Comments are hashtagged and explain what the packages are used for.
+
+```{r, warning=FALSE, message=FALSE}
+library(leaflet) #wrapper for javascript Leaflet package
+
+library(dplyr) #used for data cleaning - see Hadley Wickham's tidyverse
+
+library(rgdal) #spatial data package
+
+library(rvest) #web scraping package
+
+library(sp) #spatial data package
+
+library(htmltools) #tooltips on map 
+
+library(htmlwidgets) #for saving map as an html file or widget
+```
+
+Creating maps of countries other than the United States can be challenging. If you want to create a map of the US which shows state borders, you can use packages like mapus. This can be a good way to get your feet wet as most online tutorials map the contiguous 50 states. [That is how I started making maps](https://github.com/zmeers/SDS192-MP2-DataWrangling). 
+
+To create maps of other countries, you usually need to find the ESRI file or shapefile. Thank goodness the folks at GADM have compiled geospatial data files of administrative areas around the world. [The range of countries is pretty cool!](http://gadm.org/country) Go ahead and download the PNG shapefiles. You will want the adm1 (for provinces) and adm2 layer (for local electorates). Save the shapefiles in the same folder as the RMD file. 
+
+```{r, warning=FALSE, message=FALSE}
+#from http://gadm.org/download - search for PNG
+electorates <- readOGR("PNG_adm_shp", "PNG_adm2")
+provinces <- readOGR("PNG_adm_shp", "PNG_adm1")
+```
+
+Now we need to find the data that we want to map to the PNG electoral divisions. I chose to scrape a [Wikipedia article](https://en.wikipedia.org/wiki/Members_of_the_National_Parliament_of_Papua_New_Guinea,_2017%E2%80%932022) that listed all MPs elected in the 2017 election along with their local district or province and political party. 
+
+
+```{r}
+#data scraping
+url <- "https://en.wikipedia.org/wiki/Members_of_the_National_Parliament_of_Papua_New_Guinea,_2017%E2%80%932022"
+mytable <- read_html(url) %>% 
+  html_nodes("table") %>% 
+  .[[1]] 
+```
+
+The data from the Wikipedia table needs to match the shapefile. The following code chunk cleans the data. For this map I renamed a lot of provincial names on the Wikipedia table which were slightly different to those in the shapefile. 
+
+```{r}
+#data cleaning
+PNG_MPs_prov <- mytable %>% html_table() %>%
+  filter(grepl("Provincial", Electorate)) %>%
+  mutate(gsub(" Provincial", "", Electorate))
+
+PNG_MPs_dis <- mytable %>% html_table() %>%
+  filter(grepl("Open", Electorate)) %>%
+  mutate(gsub(" Open", "", Electorate)) 
+
+PNG_MPs_prov$Electorate <- NULL
+PNG_MPs_dis$Electorate <- NULL
+
+colnames(PNG_MPs_prov)[5] <- "NAME_2"
+colnames(PNG_MPs_dis)[5] <- "NAME_2"
+
+PNG_MPs_prov[PNG_MPs_prov=="West Sepik"]<-"Sandaun"
+PNG_MPs_prov[PNG_MPs_prov=="NCD"]<-"National Capital District"
+PNG_MPs_dis[PNG_MPs_dis=="West Sepik"]<-"Sandaun"
+PNG_MPs_dis[PNG_MPs_dis=="NCD"]<-"National Capital District"
+PNG_MPs_dis[PNG_MPs_dis=="Hagen"]<-"Mount Hagen"
+PNG_MPs_dis[PNG_MPs_dis=="NCD"]<-"National Capital District"
+PNG_MPs_dis[PNG_MPs_dis=="Wosera-Gaui"]<-"Wosera-Gawi"
+PNG_MPs_dis[PNG_MPs_dis=="Sinasina-Yongomugl"]<-"Sina Sina-Yonggomugl"
+PNG_MPs_dis[PNG_MPs_dis=="Northern"]<-"Oro"
+PNG_MPs_prov[PNG_MPs_prov=="Northern"]<-"Oro"
+PNG_MPs_dis[PNG_MPs_dis=="Aitape Lumi"]<-"Aitape-Lumi"
+PNG_MPs_dis[PNG_MPs_dis=="Yangoru-Saussia"]<-"Yangoro-Saussia"
+PNG_MPs_dis[PNG_MPs_dis=="Koroba-Lake Kopiago"]<-"Koroba-Kopiago"
+PNG_MPs_dis[PNG_MPs_dis=="Tari"]<-"Tari-Pori"
+PNG_MPs_dis[PNG_MPs_dis=="Angalimp-South Waghi"]<-"Anglimp-South Waghi"
+PNG_MPs_dis[PNG_MPs_dis=="Huon Gulf"]<-"Huon"
+PNG_MPs_dis[PNG_MPs_dis=="Mendi"]<-"Mendi-Munihu"
+PNG_MPs_dis[PNG_MPs_dis=="Baiyer-Mul"]<-"Mul-Baiyer"
+PNG_MPs_dis[PNG_MPs_dis=="Moresby North-East"]<-"National Capital District"
+#PNG_MPs_dis[PNG_MPs_dis=="Moresby North-West"]<-"National Capital District"
+#PNG_MPs_dis[PNG_MPs_dis=="Moresby South"]<-"National Capital District"
+
+#merge with spatial data frame
+electorates <- sp::merge(electorates, PNG_MPs_dis, by="NAME_2")
+electorates <- sp::merge(electorates, PNG_MPs_prov, by.x="NAME_1", by.y="NAME_2")
+```
+
+I then went ahead and created the tooltip. The map is interactive so the user can hover over a province or district and see the MP's name and political party. The tooltip uses HTML. 
+
+```{r}
+#tooltip content
+
+content <-paste0("<strong>District Electorate: </strong>", electorates$NAME_2, "</br>", "<strong>District Party: </strong>", electorates$Party.x, "</br>","<strong>District Parliamentarian: </strong>", electorates$Member.x, "</br>", "<strong> Province: </strong>", electorates$NAME_1, "</br>", "<strong> Provincial MP: </strong>", electorates$Member.y, "</br>", "<strong> Provincial Party: </strong>", electorates$Party.y) %>%
+  lapply(HTML)
+```
+
+I colored the map by province. If I were to do this again (for publication) I would either color the map by political party or gender breakdown... Something like that. The map, when colored by province, looks _too_ busy.
+
+```{r}
+#colors by province
+colorFactors = colorFactor(c('red', 'orange', 'purple', 'blue', 'hotpink', 'green','yellow','lightblue','violet','lavender','forestgreen','navy','purple4','orangered1','skyblue1','mediumorchid','turquoise2','indianred3','lightskyblue','deeppink3','steelblue','darkslategray'),
+domain = provinces$NAME_1)
+```
+
+You can now plot the map using the leaflet package!
+
+```{r}
+#map
+png_map <- leaflet() %>%
+  addTiles() %>%
+  addLegend(colors= colorFactors(provinces$NAME_1), 
+             labels=provinces$NAME_1, opacity = 1, 
+             labFormat = labelFormat(), title="Provinces",
+             position=c("topright")) %>%
+  addPolygons(data=provinces, 
+              color= colorFactors(provinces$NAME_1), 
+              weight = 1, smoothFactor = 0.5,
+              opacity = 1.0, fillOpacity = 0.8) %>%
+  addPolygons(data=electorates,  
+               weight = 1.5, smoothFactor = 0.5, opacity = 1.0, 
+               fillOpacity = 0, 
+               color="white",
+               highlightOptions = highlightOptions(color = "white", weight = 2, bringToFront = TRUE), 
+               label = ~content,  labelOptions = labelOptions(style = list("font-weight" = "normal",
+               padding = "3px 8px"), 
+               textsize = "15px",direction = "auto"))
+png_map
+```
+
+Voilà! The map is now complete. It can be saved as an HTML widget for easy exporting. 
+
+```{r}
+#save html widget for exporting
+saveWidget(png_map, file="~/png_map_widget.html", selfcontained = TRUE, libdir = NULL,
+  background = "white", knitrOptions = list())
+```
