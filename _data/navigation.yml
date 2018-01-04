@@ -7,8 +7,6 @@ main:
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Working Papers"
-    url: /workingpapers/
 
   - title: "Data Visualization Portfolio"
     url: /portfolio/
