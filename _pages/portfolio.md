@@ -5,8 +5,14 @@ permalink: /portfolio/
 author_profile: true
 ---
 
+
 {% include base_path %}
 
+
+## A year of turmoil, but Trump’s voters are with him
+ <iframe src="http://www.abc.net.au/news/2018-01-19/donald-trump-remains-popular-with-republicans-after-a-year/9333378"></iframe>
+#### [Read article here](http://www.abc.net.au/news/2018-01-19/donald-trump-remains-popular-with-republicans-after-a-year/9333378)
+#### [View GitHub repo here](https://github.com/abcnews/interactive-trump-365)
 ## Failure to Launch: Australia, the United States, and the Threat of Innefficient Innovation (interactive)
 <img src="https://zmeers.github.io/images/graph-final.gif" width="425"/> <img src="https://zmeers.github.io/images/maps-final.gif" width="425"/>
 #### [View report here](https://www.ussc.edu.au/analysis/australia-the-united-states-and-the-threat-of-inefficient-innovation-failure-to-launch)
