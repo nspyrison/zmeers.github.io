@@ -7,6 +7,11 @@ main:
   - title: "Data Visualization Portfolio"
     url: /portfolio/
         
-  - title: "CV"
+  - title: "Academic CV"
     url: /cv/
     
+  - title: "Resume"
+    url: /resume/
+    
+  - title: "Data Repositories
+    url: https://github.com/zmeers/
