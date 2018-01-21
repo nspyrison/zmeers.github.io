@@ -7,10 +7,10 @@ main:
   - title: "Data Visualization Portfolio"
     url: /portfolio/
         
-  - title: "Academic CV"
+  - title: "CV (Academic)"
     url: /cv/
     
-  - title: "Resume"
+  - title: "CV (Industry)"
     url: /resume/
     
   
