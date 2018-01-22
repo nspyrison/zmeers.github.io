@@ -8,4 +8,4 @@ redirect_from:
 
 {% include base_path %}
 
-<iframe src="https://zmeers.github.io/files/resume_zoe_meers.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
+<iframe src="https://zmeers.github.io/files/resume_zoe_meers_fe.pdf" style="width:718px; height:700px;" frameborder="0"></iframe>
