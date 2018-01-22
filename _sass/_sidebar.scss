@@ -31,7 +31,7 @@
 
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
-    font-family: $sans-serif-narrow;
+    font-family: ABCSans;
   }
 
   h3, h4 {
@@ -82,8 +82,8 @@
   }
 
   img {
-    max-width: 175px;
-    border-radius: 50%;
+    max-width: 200px;
+    border-radius: 100%;
 
     @include breakpoint($large) {
       padding: 5px;
