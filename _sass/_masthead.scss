@@ -42,9 +42,12 @@
 }
 
 .masthead__menu-item {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+  display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: $sans-serif-narrow;
+    font-size: $type-size-20;
+   text-transform: uppercase;
 
   &--lg {
     padding-right: 2em;
