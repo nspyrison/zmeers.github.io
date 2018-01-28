@@ -7,13 +7,13 @@
 // Font Variables
 $roboto-slab: 'Roboto Slab', serif;   
 $open-sans: 'Open Sans', sans-serif;
-$primary-color: #2ba6cb;
+$primary-color: #0f0e0d;
 
 body {
   margin: 0;
   padding: 0;
   color: $primary-color;
-  font-family: $roboto-slab;
+  font-family: $open-sans sans-serif narrow;
   line-height: 1.5;
 
   &.overflow--hidden {
