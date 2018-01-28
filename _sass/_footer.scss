@@ -12,7 +12,7 @@
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
   background-color: white;
-  border-top: 4px solid #282d4f;
+  border-top: 4px solid #0f0e0d;
 
   footer {
     @include container;
@@ -31,7 +31,7 @@
 
     &:hover {
       text-decoration: underline;
-      color: rgb(255, 195, 0);
+      color: light-gray;
     }
   }
 
@@ -41,8 +41,8 @@
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-5;
+  font-family: $roboto-slab;
+  font-size: $type-size-2;
 }
 
 .page__footer-follow {
