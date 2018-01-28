@@ -1,12 +1,19 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
+// Google Fonts
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
+
+// Font Variables
+$roboto-slab: 'Roboto Slab', serif;   
+$open-sans: 'Open Sans', sans-serif;
+$primary-color: #2ba6cb;
 
 body {
   margin: 0;
   padding: 0;
   color: $text-color;
-  font-family: $Arial sans-serif;
+  font-family: $body-font;
   line-height: 1.5;
 
   &.overflow--hidden {
