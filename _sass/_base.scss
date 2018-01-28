@@ -5,15 +5,15 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans:400italic,700italic,400,700);
 
 // Font Variables
-$roboto-slab: 'Roboto Slab', serif;   
-$open-sans: 'Open Sans', sans-serif;
+$roboto-slab: 'Roboto Slab', sans-serif, narrow;   
+$open-sans: 'Open Sans', sans-serif, narrow;
 $primary-color: #0f0e0d;
 
 body {
   margin: 0;
   padding: 0;
   color: $primary-color;
-  font-family: $open-sans sans-serif narrow;
+  font-family: $open-sans;
   line-height: 1.5;
 
   &.overflow--hidden {
