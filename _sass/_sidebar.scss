@@ -31,7 +31,7 @@
 
   h2, h3, h4, h5, h6 {
     margin-bottom: 0;
-    font-family: $roboto-slab;
+    font-family: $helvetica;
   }
 
   h3, h4 {
@@ -135,7 +135,7 @@
   position: relative;
   display: table-cell;
   vertical-align: middle;
-  font-family:$roboto-slab header narrow;
+  font-family:$helvetica header narrow;
   z-index: 10;
   position: relative;
   cursor: pointer;
