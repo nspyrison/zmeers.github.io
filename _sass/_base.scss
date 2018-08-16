@@ -1,24 +1,13 @@
 /* ==========================================================================
    BASE ELEMENTS
    ========================================================================== */
-@font-face {
-  font-family: omnes-pro;
-  src: url("https://use.typekit.net/af/1e9639/00000000000000003b9b1e44/27/l?subset_id=2&fvd=n3&v=3") format("woff2"), url("https://use.typekit.net/af/1e9639/00000000000000003b9b1e44/27/d?subset_id=2&fvd=n3&v=3") format("woff"), url("https://use.typekit.net/af/1e9639/00000000000000003b9b1e44/27/a?subset_id=2&fvd=n3&v=3") format("opentype");
-  font-style: normal;
-  font-weight: 300;
-}
-@font-face {
-  font-family: calluna-sans;
-  src: url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/l?subset_id=2&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/d?subset_id=2&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/3f38e7/00000000000000000000ebe8/27/a?subset_id=2&fvd=n4&v=3") format("opentype");
-  font-style: normal;
-  font-weight: 400;
-}
+
 
 body {
   margin: 0;
   padding: 0;
   color: $primary-color;
-  font-family: $omnes-pro;
+  font-family: $helvetica;
   line-height: 1.5;
 
   &.overflow--hidden {
@@ -30,7 +19,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin: 2em 0 0.5em;
   line-height: 1.2;
-  font-family: $calluna-sans header narrow;
+  font-family: $helvetica header narrow;
   font-weight: bold;
 }
 
@@ -65,7 +54,7 @@ small, .small {
 
 p {
   margin-bottom: 1.3em;
-  font-family: $omnes-pro header narrow; 
+  font-family: $helvetica header narrow; 
    
 }
 
