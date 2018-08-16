@@ -15,7 +15,7 @@
     @include container;
     @include clearfix;
     padding: 1em 1em 1em;
-    font-family: $omnes-pro;
+    font-family: $helvetica;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -45,7 +45,7 @@
   display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: $omnes-pro header narrow;
+    font-family: $helvetica header narrow;
     font-weight:300;
     font-size: $type-size-4;
 //    text-transform: uppercase;
