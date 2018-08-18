@@ -7,7 +7,7 @@ author_profile: true
 Feel free to check out (and use!) my software.
 
 
-* [`readabs`](https://zmeers.github.io/readabs/), a `R`package for reading Microsoft excel files from the Australian Bureau of Statistics
+* [`readabs`](https://zmeers.github.io/readabs/), a `R`package for reading Microsoft Excel files from the Australian Bureau of Statistics into tidy data frames.
 
 * [`ggparliament`](https://github.com/RobWHickman/ggparliament), a `ggplot2` extension for parliament plots.
 
