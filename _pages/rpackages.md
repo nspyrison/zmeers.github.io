@@ -4,7 +4,6 @@ author_profile: true
 
 ---
 
-Part of my work involves creating `R` packages. I am particularly inrerested in creating `R` packages for work in political science.
 Feel free to check out (and use!) my software.
 
 
