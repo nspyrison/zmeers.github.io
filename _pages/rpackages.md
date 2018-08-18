@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /rpackages/
 author_profile: true
 
 ---
