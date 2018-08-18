@@ -11,5 +11,4 @@ Feel free to check out (and use!) my software.
 
 * [`ggparliament`](https://github.com/RobWHickman/ggparliament), a `ggplot2` extension for parliament plots.
 
-
-As always, if you find any bug please log an issue on the respective GitHub repositories and I will get to them as soon as possible. 
+I appreciate feedback. If you have any comments with regards to my `R` packages, email me at zoe.meers@gmail.com.
