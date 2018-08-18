@@ -6,5 +6,7 @@ main:
     
   - title: "Data Visualization Portfolio"
     url: /portfolio/
-        
+    
+  - title: "R Packages"
+    url: /rpackages/        
 
