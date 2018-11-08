@@ -6,9 +6,8 @@ author_profile: true
 ## Women candidates in the midterm elections
 <div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "425"/>
-<img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "425"/>
 <img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "425"/>
-<img src = "https://zmeers.github.io/images/women_cand_seats_4.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "850"/>
 </div>
 
 #### [Read article here](https://www.ussc.edu.au/analysis/women-candidates-in-the-midterm-elections) 
