@@ -5,8 +5,8 @@ main:
     url: /year-archive/
     
   - title: "Data Visualization Portfolio"
-    url: /portfolio/
+    url: /portfolio
     
   - title: "R Packages"
-    url: /rpackages/        
+    url: /rpackages        
 
