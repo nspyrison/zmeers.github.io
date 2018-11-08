@@ -5,7 +5,6 @@ author_profile: true
 ---
 
 # Data Visualization Portfolio 
-
 ## Women candidates in the midterm elections
 <div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "425"/>
