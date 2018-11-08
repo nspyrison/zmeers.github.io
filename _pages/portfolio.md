@@ -3,16 +3,30 @@ layout: archive
 permalink: /portfolio
 author_profile: true
 ---
+## Women candidates in the midterm elections
+<div>
+<img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_4.png" width = "425"/>
+</div>
 
-
+#### [Read article here](https://www.ussc.edu.au/analysis/women-candidates-in-the-midterm-elections) 
+#### [View GitHub repo here](https://github.com/USStudiesCentre/midterms-analysis)
 
 
 ## Midterm election seats in play
 <div>
-<img float: right src = "https://zmeers.github.io/images/midterms_seats_1.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/midterms_seats_1.png" width = "425"/>
 <img src = "https://zmeers.github.io/images/midterms_seats_2.png" width = "425"/>
 <img src = "https://zmeers.github.io/images/midterms_seats_3.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/midterms_seats_4.png" width = "425"/>
 </div>
+
+#### [Read article here](https://www.ussc.edu.au/analysis/explainer-midterm-election-seats-in-play) 
+#### [View GitHub repo here](https://github.com/USStudiesCentre/midterms-analysis)
+
+
 ## A year of turmoil, but Trump’s voters are with him (interactive)
 <img src="https://zmeers.github.io/images/trump-365.gif" width="850"/> 
 #### [Read article here](http://www.abc.net.au/news/2018-01-19/donald-trump-remains-popular-with-republicans-after-a-year/9333378)
