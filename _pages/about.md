@@ -5,7 +5,7 @@ author_profile: true
 ---
 Hello, world!
 
-I currently work as a Data Visualization Analysist at the [United States Studies Center](https://www.ussc.edu.au/) at the [University of Sydney](https://sydney.edu.au/). Previously, I was one of the 2018 Australian [Google News Initative Fellows](newslab.withgoogle.com/fellowship) with the ABC News Lab. I create data visualization pieces using a variety of tools, including `R`, `Python`, and `D3.js`. Additionally, I work as a Research Assistant for [Professor Simon Jackman](https://www.ussc.edu.au/experts/simon-jackman), Professor of Political Science and CEO of the USSC. I am also a RA for the [Australian Women's Working Futures project](https://www.sydney.edu.au/business/research/grants/awwf), primarily providing statistical expertise.
+I currently work as a Data Visualization Analysist at the [United States Studies Center](https://www.ussc.edu.au/) at the [University of Sydney](https://sydney.edu.au/). Previously, I was one of the 2018 Australian [Google News Initative Fellows](newslab.withgoogle.com/fellowship) with the ABC News Lab. I create data visualization pieces using a variety of tools, including `R`, `Python`, and `D3.js`. Additionally, I work as a Research Assistant in political science and other quantitative social science disciplines.
 
 I am an `R` package developer, having created [readabs](http://zmeers.github.io/readabs/), a `R` package that reads Excel files from the Australian Bureau of Statistics. Right now, I am working on [ggparliament](https://github.com/robWHickman/ggparliament), a `ggplot2` extension for parliament plots. 
 
