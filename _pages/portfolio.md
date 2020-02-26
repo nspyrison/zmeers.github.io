@@ -7,11 +7,14 @@ author_profile: true
 
 ## Isolated AgTech in Australia? A social network analysis of an innovative sector 
 <div>
+<div>
 <img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "400"/>
 <img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "400"/>
+</div>
+<div>
 <img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "400"/>
 <img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "400"/>
-<img src = "https://zmeers.github.io/images/ie_agtech_5.gif" width = "400"/>
+</div>
 </div>
 
 #### [Read article here](https://www.ussc.edu.au/analysis/isolated-agtech-in-Australia-a-social-network-analysis-of-an-innovative-sector) 
