@@ -3,7 +3,7 @@ permalink: /portfolio
 author_profile: true
 ---
 
-# Zoe's data visualization portfolio
+# . 
 
 ## Isolated AgTech in Australia? A social network analysis of an innovative sector 
 <div>
