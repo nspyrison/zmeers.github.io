@@ -65,7 +65,7 @@ author_profile: true
 #### [View interactive game here](https://estephenson.github.io/final-project/index.html)
 #### [View GitHub repo here](https://github.com/estephenson/final-project)
 
-# ## Mapping Macleish Field Station (interactive)
+## Mapping Macleish Field Station (interactive)
 <img src="https://zmeers.github.io/images/macleish.png" width="425"/>
-# #### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
-# #### [View GitHub repo here](https://github.com/zmeers/SDS192-Mini-Project-4)
+#### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
+#### [View GitHub repo here](https://github.com/zmeers/SDS192-Mini-Project-4)
