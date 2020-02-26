@@ -24,8 +24,10 @@ author_profile: true
 
 ## Women candidates in the midterm elections
 <div>
+<div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "425"/>
 <img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "425"/>
+</div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "850"/>
 </div>
 
