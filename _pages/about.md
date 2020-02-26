@@ -7,7 +7,7 @@ Hello, world!
 
 I currently work as a Data Visualization Analyst at the [United States Studies Center](https://www.ussc.edu.au/) at the [University of Sydney](https://sydney.edu.au/). Previously, I was one of the 2018 Australian [Google News Initative Fellows](newslab.withgoogle.com/fellowship) with the ABC News Lab. I create data visualization pieces using a variety of tools, including `R`, `Python`, and `D3.js`. Additionally, I work as a Research Assistant in political science and other quantitative social science disciplines.
 
-I am an `R` package developer, having created [readabs](http://zmeers.github.io/readabs/), a package that reads Excel files from the Australian Bureau of Statistics. Right now, I am working on [ggparliament](https://github.com/robWHickman/ggparliament), a `ggplot2` extension for visualizing legislatures. 
+I am an `R` package developer, having created [readabs](http://zmeers.github.io/readabs/), a package that reads Excel files from the Australian Bureau of Statistics. I have also worked on [ggparliament](https://github.com/robWHickman/ggparliament), a `ggplot2` extension for visualizing legislatures. You can read this [research note](https://joss.theoj.org/papers/10.21105/joss.01313), published in the *Journal of Open Source Software*, about `ggparliament`.
 
 My research interests lie in the intersection of statistics and political behavior. Broadly speaking, I study comparative public opinion and political behavior, with a focus on the United States and Australia. I also have a keen interest in the Pacific region, particularly Small Island Developing States. 
 
