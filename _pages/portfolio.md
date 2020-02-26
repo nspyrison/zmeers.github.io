@@ -5,15 +5,15 @@ author_profile: true
 
 **Data visualization portfolio**
 
-## Isolated AgTech in Australia? A social network analysis of an innovative sector 
+## Isolated AgTech in Australia? A social network analysis of an innovative sector (interactive)
 <div>
 <div>
-<img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "275"/>
-<img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "275"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "400"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "400"/>
 </div>
 <div>
-<img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "275"/>
-<img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "275"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "400"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "400"/>
 </div>
 </div>
 
@@ -22,11 +22,11 @@ author_profile: true
 
 
 
-## Women candidates in the midterm elections
+## Women candidates in the midterm elections (static)
 <div>
 <div>
-<img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "275"/>
-<img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "275"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "400"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "400"/>
 </div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "850"/>
 </div>
@@ -35,7 +35,7 @@ author_profile: true
 #### [View GitHub repo here](https://github.com/USStudiesCentre/midterms-analysis)
 
 
-## Midterm election seats in play
+## Midterm election seats in play (static)
 <div>
 <img src = "https://zmeers.github.io/images/midterms_seats_1.png" width = "425"/>
 <img src = "https://zmeers.github.io/images/midterms_seats_2.png" width = "425"/>
