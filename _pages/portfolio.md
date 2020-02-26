@@ -8,12 +8,12 @@ author_profile: true
 ## Isolated AgTech in Australia? A social network analysis of an innovative sector 
 <div>
 <div>
-<img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "400"/>
-<img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "400"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "275"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "275"/>
 </div>
 <div>
-<img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "400"/>
-<img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "400"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "275"/>
+<img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "275"/>
 </div>
 </div>
 
@@ -25,8 +25,8 @@ author_profile: true
 ## Women candidates in the midterm elections
 <div>
 <div>
-<img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "425"/>
-<img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "425"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "275"/>
+<img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "275"/>
 </div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "850"/>
 </div>
@@ -64,8 +64,8 @@ author_profile: true
 <img src="https://zmeers.github.io/images/berniesanders.gif" width="850"/> 
 #### [View interactive game here](https://estephenson.github.io/final-project/index.html)
 #### [View GitHub repo here](https://github.com/estephenson/final-project)
-<!---
-## Mapping Macleish Field Station (interactive)
-<img src="https://zmeers.github.io/images/macleish.png" width="425"/>
-#### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
-#### [View GitHub repo here](https://github.com/zmeers/SDS192-Mini-Project-4)--->
+
+# ## Mapping Macleish Field Station (interactive)
+# <img src="https://zmeers.github.io/images/macleish.png" width="425"/>
+# #### [View report here](https://zmeers.github.io/SDS192-Mini-Project-4/MP4.html)
+# #### [View GitHub repo here](https://github.com/zmeers/SDS192-Mini-Project-4)
