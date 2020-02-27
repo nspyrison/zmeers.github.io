@@ -9,10 +9,15 @@ author_profile: true
 <div>
 <div>
 <img src = "https://zmeers.github.io/images/ie_agtech_1.gif" width = "400"/>
+</div>
+<div>
 <img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "400"/>
 </div>
 <div>
-<img src = "https://zmeers.github.io/images/ie_agtech_3.gif" width = "400"/>
+<div>
+<img src = "https://zmeers.github.io/images/ie_agtech_5.gif" width = "400"/>
+</div>
+<div>
 <img src = "https://zmeers.github.io/images/ie_agtech_4.gif" width = "400"/>
 </div>
 </div>
@@ -26,6 +31,8 @@ author_profile: true
 <div>
 <div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_1.png" width = "400"/>
+</div>
+<div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_3.png" width = "400"/>
 </div>
 <img src = "https://zmeers.github.io/images/women_cand_seats_2.png" width = "850"/>
