@@ -15,7 +15,6 @@ author_profile: true
 <img src = "https://zmeers.github.io/images/ie_agtech_2.gif" width = "800"/>
 </div>
 <div>
-<div>
 <img src = "https://zmeers.github.io/images/ie_agtech_5.gif" width = "800"/>
 </div>
 <div>
