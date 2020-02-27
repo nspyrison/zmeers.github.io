@@ -23,7 +23,7 @@ author_profile: true
 </div>
 
 
-#### [Read article here](https://www.ussc.edu.au/analysis/isolated-agtech-in-Australia-a-social-network-analysis-of-an-innovative-sector) \
+#### [Read article here](https://www.ussc.edu.au/analysis/isolated-agtech-in-Australia-a-social-network-analysis-of-an-innovative-sector)
 
 #### [View GitHub repo here](https://github.com/usstudiescentre/linkedin_analysis)
 
