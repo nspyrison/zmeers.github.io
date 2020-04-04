@@ -5,5 +5,16 @@ main:
     url: /portfolio
     
   - title: "R Packages"
-    url: /rpackages        
+    url: /rpackages      
+
+  - title: "Professional Resume"
+    url: /cv  
+
+  - title: "Academic CV"
+    url: /cv 
+
+
+
+
+
 
